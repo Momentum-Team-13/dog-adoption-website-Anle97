@@ -1,0 +1,89 @@
+h1 {
+    border-bottom: 2.5px solid #89deef;
+    background-color: #004175;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    padding: 30px;
+    padding-left: 60px;
+}
+
+body {
+    padding-left: 0px;
+}
+
+.info {
+    font-family: "Open Sans", sans-serif;
+    padding-left: 60px;
+}
+
+.dogs {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.dogs p {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    font-weight:bolder;
+    margin: 0; padding: 0;
+}
+
+img {
+    height: 250px;
+    width: 350px;
+}
+
+ul {
+    margin-top: 0; margin-bottom: 10; padding: 0;
+}
+
+li {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    display: inline;
+    background-color: #89deef;
+    border-radius: 25px;
+    padding: 2.5px;
+    line-height: 2.5;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer p {
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    color: white;
+}
+
+.footer .Donate {
+    background: url("starter_files/images/donate.jpg"),#A6A9F0;
+    background-blend-mode: multiply;
+    text-align: center;
+    line-height: 340px;
+    flex: 1 1 auto;
+    width: auto;
+    height: 400px;
+}
+
+.footer .Volunteer {
+    background: url("starter_files/images/volunteer copy.jpg"), #A6A9F0;
+    background-blend-mode: multiply;
+    text-align: center;
+    line-height: 340px;
+    flex: 1 1 auto;
+    width: auto;
+    height: 400px;
+}
+
+.footer .Location {
+    background: url("starter_files/images/location.png"), #A6A9F0;
+    background-blend-mode: multiply;
+    text-align: center;
+    line-height: 350px;
+    flex: 1 1 auto;
+    width: auto;
+    height: 400px;
+}
