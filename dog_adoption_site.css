@@ -50,6 +50,7 @@ li {
 
 .footer {
     display: flex;
+    justify-content: center;
 }
 
 .footer p {
@@ -64,8 +65,8 @@ li {
     text-align: center;
     line-height: 340px;
     flex: 1 1 auto;
-    width: auto;
-    height: 400px;
+    background-size: cover;
+    background-position: center center;
 }
 
 .footer .Volunteer {
@@ -74,16 +75,16 @@ li {
     text-align: center;
     line-height: 340px;
     flex: 1 1 auto;
-    width: auto;
-    height: 400px;
+    background-size: cover;
+    background-position: center center;
 }
 
 .footer .Location {
     background: url("starter_files/images/location.png"), #A6A9F0;
     background-blend-mode: multiply;
     text-align: center;
-    line-height: 350px;
+    line-height: 340px;
     flex: 1 1 auto;
-    width: auto;
-    height: 400px;
+    background-size: cover;
+    background-position: center center;
 }
